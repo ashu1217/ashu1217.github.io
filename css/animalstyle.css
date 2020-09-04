@@ -1,0 +1,215 @@
+.main-header nav{
+	margin-left: 120px;
+	background-color: rgba(0,0,0,.6);
+	height:50px;
+	position: fixed;
+	margin-top: 45px;
+	width:1355px;
+	z-index:1000;
+}
+#ndisp{
+	display: inline-block;
+	color: #fff;
+	font-weight: bold;
+	margin:0px 30px  0 200px;
+	font-size: 15px;
+
+}
+
+.logo{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	position: fixed;
+	 float: left;
+	 margin: 2%;
+	opacity: 1;
+	border-radius: 13px;
+	border:2px solid black;
+	z-index:1000;
+}
+body{
+	
+	background-color: #f8f9d2;
+ 	background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
+}
+
+header{
+	background: url("../images/banner-bg.jpg") no-repeat;
+	-webkit-background-size:cover; 
+	background-color: rgba(0, 0, 0, 0.4);
+	display: inline-block;
+	width: 100%;
+	
+	border:1px solid black;
+	height:700px ;
+	/*opacity: 0.4;*/
+}
+
+
+nav a{
+	text-decoration: none;
+	color: #fff;
+	margin-left: 38px;
+	opacity: 1;
+	float: left;
+	display: inline-block;
+	padding: 5px;
+	padding-top: 15px;
+	z-index:1000;
+		
+	
+
+}
+.Headers h1{
+	color: #fff;
+	margin-top: 200px;
+	margin-left:100px;
+	font-weight: bold;
+}
+
+.Headers a{
+	margin-top: 50px;
+	margin-left: 100px;
+	padding-left: 30px;
+    padding-right: 30px; 
+    border-radius: 0;
+    background: #fff;
+    color: #222 !important;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    position: relative;
+    line-height: 42px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.Headers a:hover,a:focus{
+	padding-left: 30px;
+    padding-right: 30px;
+     background: transparent;   
+    border-radius: 0;
+    color: #222 !important;
+    border:1px solid #fff;
+    text-decoration: none;
+    outline: 0;
+}
+
+
+.logbtn{
+	    
+		margin:7px 30px  0 300px;
+		background-color: orange;
+		height:35px;
+		
+}
+#logbt{
+	padding: 0;
+	text-align: center;
+	margin-left: 0;
+}
+
+.midarea1{
+	height: 400px;
+	padding-top: 115px;
+	background-color: #f8f9d2;
+    background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
+
+ }
+
+ .carea1{
+ 	padding: 50px;
+ 	margin-left: 250px;
+ 	display: flex;
+ 	height: 170px;
+ 	width: 1000px;
+ 	border:1px transparent black;
+ 	background-color: #fff;
+ }
+ 
+ .midarea2{
+ 	height:500px;
+ 	border:1px solid #000;
+ } 
+
+ .half1 img{
+ 	display: inline-block;
+ 	width: 50%;
+ 	height: 500px;
+ 	float: left;
+ 	
+ }
+ .half2 {
+ 	display: inline-block;
+ 	width: 50%;
+ 	float: right;
+ 	height:500px;
+ 	padding:100px 100px; 
+ }
+
+ .midarea3{
+ 	display: block;
+ 	height: 600px;
+ 	background-color: #f8f9d2;
+ 	background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
+ 	padding-top:100px;
+ 	padding-left: 450px;
+ 	border-radius: 2px;
+ 	border:2px solid #000;
+ }
+ .midarea3 h4{
+ 	margin-left: 120px;
+ }
+
+ .midarea4{
+ 	height:500px;
+ 	background-color: #f9f9ff;
+
+ }
+ .midarea5{
+ 	height:250px;
+ 	background-color: orange;
+ 	}
+
+ .midarea5 h1{
+ 	margin-left: 450px;
+ 	padding-top: 50px;
+ 	color:#fff;
+ }
+ 
+
+ .footers{
+ 	background-color: #1e1c27;
+ 	height: 400px;
+ }
+ footer h6{
+ 	color: #000;
+ }
+ 
+ .f1 ,.f2 ,.f3 {
+ 	display: inline-block;
+ 	float: left;
+ 	width: 33%;
+ 	text-decoration: none;
+
+ }
+/* Login.html */
+.loginarea{
+	height:800px;
+	width: 1000px;
+	padding-top:250px;
+	padding-left: 450px;
+}
+
+.signuparea{
+	padding-left: 400px;
+	padding-top: 160px;
+	
+}
+
+/*About us*/
+.report-outer{
+	
+}
